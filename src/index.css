@@ -1,13 +1,75 @@
-body {
+*{
+  box-shadow: none;
+  
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* navbar */
+
+
+.table-container{
+  box-shadow: none;
+}
+.table-th {
+  background-color: rgb(217, 217, 216);
+}
+.table-td {
+  padding: 10px;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 30px;
+  width: 100%;
+}
+.arrow-btn{
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  
+  
+}
+.inner-btn{
+  width: 40px;
+  background-color: gray;
+  color: white;
+  border-radius: 5px;
+ 
+}
+.inactive-btn{
+  background-color: white;
+  color: gray;
+  border-radius: 5px;
+  width: 40px;
+}
+/* side panel */
+
+.side-panel-content{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.side-panel{
+  padding: 10px;
+
+}
+.side-panel-button{
+  display: flex;
+  flex-direction: column;
+
+}
+.sorted-column {
+  background-color: #a9a5a5; 
+  color: white;
+}
+.selected-row {
+  
+  background-color: rgb(136, 133, 133);
+
+}
+.column-row {
+  cursor: pointer;
 }
