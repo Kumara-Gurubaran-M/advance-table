@@ -114,13 +114,12 @@ function AdvancedDataTable() {
                 setTemporaryColumnVisibility(initialColumnsVisibility);
                 setData(formattedData);
                 setFilteredData(formattedData);
+
             } catch (error) {
                 console.error('Error fetching data:', error);
             }
         };
-        const forceRefresh = () => {
-            window.location.reload(true);
-        };
+
 
         fetchData();
     }, []);
