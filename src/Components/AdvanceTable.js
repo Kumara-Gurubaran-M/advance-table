@@ -100,7 +100,7 @@ function AdvancedDataTable() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const result = await axios.get('https://file.notion.so/f/f/ca71608c-1cc3-4167-857a-24da97c78717/b041832a-ec40-47bb-b112-db9eeb72f678/sample-data.json?id=ce885cf5-d90e-46f3-ab62-c3609475cfb6&table=block&spaceId=ca71608c-1cc3-4167-857a-24da97c78717&expirationTimestamp=1711173600000&signature=M74t9Sf9nx-jaP5e7YBbqgtYMRMIICvyOxaxQdI63Ls&downloadName=sample-data.json');
+                const result = await axios.get('https://file.notion.so/f/f/ca71608c-1cc3-4167-857a-24da97c78717/b041832a-ec40-47bb-b112-db9eeb72f678/sample-data.json?id=ce885cf5-d90e-46f3-ab62-c3609475cfb6&table=block&spaceId=ca71608c-1cc3-4167-857a-24da97c78717&expirationTimestamp=1711382400000&signature=CSsnpFxzuVkQCRQWGpV9P3UXbGg9-0Z1G55IPCWEYng&downloadName=sample-data.json');
                 const formattedData = result.data.map(item => ({
                     ...item,
                     createdAt: formatDate(item.createdAt),
@@ -580,7 +580,7 @@ function AdvancedDataTable() {
                     <div>
                         <div className='p-2'>
                             <div className='d-flex justify-content-between align-items-center'>
-                                <h4>Name</h4>
+                                <h4>Fuzzy Search(Name)</h4>
 
                             </div>
                             <input
@@ -715,7 +715,7 @@ function AdvancedDataTable() {
                 selectedGrouping === "" ?
                     <>
                         <TableContainer component={Paper}>
-                            <Table {...getTableProps()}>
+                            <Table {...getTableProps()} className='table-striped'>
                                 <TableHead className='table-th'>
                                     <TableRow>
                                         {headerGroups.map(headerGroup => (
