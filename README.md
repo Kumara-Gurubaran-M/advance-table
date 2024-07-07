@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Advanced Table Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project showcases a robust table implementation with advanced features for managing and manipulating data effectively.
 
-## Available Scripts
+## Table Features
 
-In the project directory, you can run:
+- **Data Fields**: Displays data fields including Name, ID, Category, Subcategory, Created At, Updated At, Price, Sale Price.
+- **Filter Options**: Offers advanced filtering capabilities to refine data based on specific criteria.
+- **Column Management**: Allows users to hide/unhide columns as per their preference.
+- **Search Functionality**: Supports standard search and Fuse.js powered search for enhanced data retrieval.
+- **Pagination**: Enables navigation through large datasets with pagination controls.
 
-### `npm start`
+## Project Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Explore the project live: [Advanced Table Demo](https://advance-table.vercel.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To run this project locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository: `git clone https://github.com/Kumara-Gurubaran-M/advance-table`
+2. Navigate into the project directory: `cd advance-table`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Once the project is set up, you can:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- View and interact with the advanced table interface.
+- Customize columns visibility and apply filters.
+- Utilize search features to locate specific data entries.
+- Navigate through pages using pagination controls.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions are welcome! If you find any issues or have suggestions for improvements, please submit them as issues or pull requests in the GitHub repository.
